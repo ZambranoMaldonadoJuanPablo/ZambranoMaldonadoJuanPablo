@@ -1,0 +1,23 @@
+class program {
+void turn(n) {
+iterate(n)
+turnleft();
+}
+
+    program () {
+        // TODO poner codigo aqui
+        while (frontIsClear) {
+        move();
+        if (frontIsBlocked) {
+        turn(1);
+        move();
+        turn(3);
+        move();
+        turn(3);
+        move();
+        turn(1);
+        }
+       }
+        turnoff();
+    }
+}
